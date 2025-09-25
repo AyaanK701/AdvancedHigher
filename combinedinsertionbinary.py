@@ -33,8 +33,9 @@ def main():
             42, 99, 26, 65, 88, 13, 51, 30, 93, 19, 82, 5, 38, 69, 15, 54, 97, 27, 61, 46, 84, 10, 32, 79,
             21, 58, 95,37, 7, 73, 43, 100, 24, 66, 86, 16, 52, 29, 91, 17,
             80, 4, 40, 68, 22, 55, 90, 35, 63, 48, 83, 1, 49, 74, 2, 60, 44, 76, 75, 57]
+    print("unsorted list: ", list,"          ")
     sorted_list = insertionSort(list)
-    print(sorted_list)
+    print("sorted list:",sorted_list)
     target = int(input("Enter a target to search for: "))
     found = binarySearch(sorted_list, target)
     if found == True:
