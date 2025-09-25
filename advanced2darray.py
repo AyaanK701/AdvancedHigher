@@ -1,3 +1,4 @@
+import os
 def save2dstringarray (array2D, filename):
     with open (filename, "w") as f:
         f.write(str(len(array2D)) +"\n")
